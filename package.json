@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@azure/cognitiveservices-speech-sdk": "^1.0.0"
+    "microsoft-cognitiveservices-speech-sdk": "^1.0.0"
   }
 }
