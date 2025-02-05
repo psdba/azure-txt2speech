@@ -1,0 +1,14 @@
+{
+  "name": "azure-txt2speech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cognitiveservices-speech-sdk": "^1.0.0"
+  }
+}
