@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Text-to-Speech App</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        input, button { margin: 10px 0; padding: 10px; }
+    </style>
+    <!-- Microsoft Cognitive Services SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/microsoft-cognitiveservices-speech-sdk/distrib/browser/microsoft.cognitiveservices.speech.sdk.bundle.js"></script>
+</head>
+<body>
+    <h1>Text-to-Speech Web App</h1>
+    <textarea id="text" rows="5" cols="50" placeholder="Enter text here"></textarea><br>
+    <button id="speakBtn">Speak</button>
+    
+    <!-- Link your custom JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
